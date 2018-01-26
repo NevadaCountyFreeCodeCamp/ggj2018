@@ -1,0 +1,8 @@
+{
+  "serverName": "Nevada County Game Jam Free Code Camp Superpowers Server",
+  "mainPort": 4237,
+  "buildPort": 4238,
+  "password": "gamejam!2018",
+  "sessionSecret": "661a0f2d2fe5761376a48354665c8e146a22b4b9653e829b832af237ef5ebf63ba8bbb039acdbd3f1af2a3e90a714a65",
+  "maxRecentBuilds": 10
+}
