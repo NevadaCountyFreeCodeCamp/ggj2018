@@ -3,7 +3,7 @@
 ![](img/title.png)
 ![](img/ingame.png)
 
-2D Platformer built with [Superpowers](https://github.com/superpowers/superpowers-core)!
+2D Platformer built with [Superpowers](https://github.com/superpowers/superpowers-core) inside of Docker.
 
 # Build
 
