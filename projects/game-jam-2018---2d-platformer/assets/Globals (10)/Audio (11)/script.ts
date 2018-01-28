@@ -4,14 +4,23 @@ class AudioBehavior extends Sup.Behavior {
     let introMusicPlayer = new Sup.Audio.SoundPlayer("musicintro", 1.0, { loop: false });
 
       // ... When entering the game, from some behavior ...
-      introMusicPlayer.play(); inGameMusicPlayer.play();
+      introMusicPlayer.play();
+      
+      function playgamemusic() {
+       inGameMusicPlayer.play();
+      }
     
-      // ... When returning to the menu ...
-      //inGameMusicPlayer.stop();
+      Sup.setTimeout(3500, playgamemusic);
+       
+      // ... Entering Game
+      if (Sup.Input.wasKeyJustPressed("SPACE")) {
+        introMusicPlayer.stop()
+      }
+      
   }
-
+  
   update() {
-    
+ 
   }
 }
 Sup.registerBehavior(AudioBehavior);
