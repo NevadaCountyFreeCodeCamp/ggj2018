@@ -1,0 +1,13 @@
+{
+  "formatVersion": 2,
+  "isBitmap": true,
+  "filtering": "pixelated",
+  "pixelsPerUnit": 16,
+  "size": 32,
+  "color": "fbf8ff",
+  "opacity": null,
+  "gridWidth": 20,
+  "gridHeight": 20,
+  "charset": null,
+  "charsetOffset": 32
+}

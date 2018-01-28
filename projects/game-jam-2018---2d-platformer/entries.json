@@ -1,37 +1,93 @@
 {
-  "nextEntryId": 7,
+  "nextEntryId": 23,
   "nodes": [
     {
-      "id": "0",
-      "name": "Scene",
-      "type": "scene"
-    },
-    {
-      "id": "4",
-      "name": "Tile Set",
-      "type": "tileSet"
-    },
-    {
-      "id": "6",
-      "name": "Map",
-      "type": "tileMap"
-    },
-    {
-      "id": "1",
-      "name": "Player",
+      "id": "10",
+      "name": "Globals",
       "type": null,
       "children": [
         {
-          "id": "2",
-          "name": "Sprite",
-          "type": "sprite"
+          "id": "4",
+          "name": "Tile Set",
+          "type": "tileSet"
         },
         {
-          "id": "3",
-          "name": "Behavior",
+          "id": "1",
+          "name": "Player",
+          "type": null,
+          "children": [
+            {
+              "id": "2",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "3",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "name": "Audio",
+          "type": "script"
+        },
+        {
+          "id": "21",
+          "name": "Font",
+          "type": "font"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Startup Menu",
+      "type": null,
+      "children": [
+        {
+          "id": "16",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "17",
+          "name": "Tile Map",
+          "type": "tileMap"
+        },
+        {
+          "id": "22",
+          "name": "TitleMenu",
           "type": "script"
         }
       ]
+    },
+    {
+      "id": "9",
+      "name": "Level1",
+      "type": null,
+      "children": [
+        {
+          "id": "0",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "6",
+          "name": "Map",
+          "type": "tileMap"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "music1",
+      "type": "sound"
+    },
+    {
+      "id": "14",
+      "name": "musicintro",
+      "type": "sound"
     }
   ]
 }

@@ -2,6 +2,7 @@
   "behaviors": {
     "PlayerBehavior": {
       "scriptId": "3",
+      "line": 2,
       "parentBehavior": null,
       "properties": [
         {
@@ -13,6 +14,18 @@
           "type": "number"
         }
       ]
+    },
+    "AudioBehavior": {
+      "scriptId": "11",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "TitleMenuBehavior": {
+      "scriptId": "22",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
     }
   }
 }

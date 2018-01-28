@@ -1,0 +1,27 @@
+{
+  "formatVersion": 1,
+  "grid": {
+    "width": 32,
+    "height": 32
+  },
+  "tileProperties": {
+    "14_5": {
+      "climbable": "true"
+    },
+    "14_6": {
+      "climbable": "true"
+    },
+    "14_7": {
+      "climbable": "true"
+    },
+    "14_8": {
+      "climbable": "true"
+    },
+    "14_9": {
+      "climbable": "true"
+    },
+    "14_10": {
+      "climbable": "true"
+    }
+  }
+}
