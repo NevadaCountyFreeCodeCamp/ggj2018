@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 23,
+  "nextEntryId": 26,
   "nodes": [
     {
       "id": "10",
@@ -74,6 +74,23 @@
         },
         {
           "id": "6",
+          "name": "Map",
+          "type": "tileMap"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Level2",
+      "type": null,
+      "children": [
+        {
+          "id": "24",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "25",
           "name": "Map",
           "type": "tileMap"
         }
