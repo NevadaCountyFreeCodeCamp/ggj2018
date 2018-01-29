@@ -17,13 +17,19 @@
     },
     "AudioBehavior": {
       "scriptId": "11",
-      "line": 0,
+      "line": 1,
       "parentBehavior": null,
       "properties": []
     },
     "TitleMenuBehavior": {
       "scriptId": "22",
       "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "InGameAudioBehavior": {
+      "scriptId": "11",
+      "line": 27,
       "parentBehavior": null,
       "properties": []
     }
