@@ -73,6 +73,13 @@
       "startFrameIndex": 36,
       "endFrameIndex": 39,
       "speed": 1
+    },
+    {
+      "id": "8",
+      "name": "Dead",
+      "startFrameIndex": 35,
+      "endFrameIndex": 35,
+      "speed": 1
     }
   ],
   "mapSlots": {

@@ -11,7 +11,7 @@
           "config": {
             "formatVersion": 1,
             "spriteAssetId": "2",
-            "animationId": "0",
+            "animationId": "8",
             "horizontalFlip": true,
             "verticalFlip": false,
             "castShadow": false,
@@ -26,8 +26,8 @@
         }
       ],
       "position": {
-        "x": 11.177,
-        "y": -0.305,
+        "x": 10.011245727539062,
+        "y": -0.3050000071525574,
         "z": 0
       },
       "orientation": {
@@ -93,13 +93,41 @@
     {
       "id": "1",
       "name": "Map",
-      "children": [],
+      "children": [
+        {
+          "id": "8",
+          "name": "LoadBodies",
+          "children": [],
+          "components": [],
+          "position": {
+            "x": 20.818218231201172,
+            "y": 13.259004831314087,
+            "z": 10
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": {
+            "sceneAssetId": "46"
+          }
+        }
+      ],
       "components": [
         {
           "type": "TileMapRenderer",
           "config": {
             "formatVersion": 1,
-            "tileMapAssetId": "17",
+            "tileMapAssetId": "44",
             "tileSetAssetId": null,
             "castShadow": false,
             "receiveShadow": false,
@@ -133,98 +161,15 @@
         {
           "type": "Behavior",
           "config": {
-            "behaviorName": "AudioBehavior",
+            "behaviorName": "GameOverBehavior",
             "propertyValues": {}
           },
           "id": "4"
         }
       ],
       "position": {
-        "x": -14.88862419128418,
-        "y": -10.225343704223633,
-        "z": -10
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "3",
-      "name": "GGJ2018",
-      "children": [
-        {
-          "id": "4",
-          "name": "Jam",
-          "children": [],
-          "components": [
-            {
-              "type": "TextRenderer",
-              "config": {
-                "formatVersion": 2,
-                "fontAssetId": "21",
-                "text": "Global game jam 2018",
-                "alignment": "center",
-                "verticalAlignment": "center",
-                "size": null,
-                "color": null,
-                "overrideOpacity": false,
-                "opacity": null
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 0.7047564685344696,
-            "y": 17.618908882141113,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        }
-      ],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "21",
-            "text": "by\n@bevns & @djdefi",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": null,
-            "color": null,
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": -0.28445348143577576,
-        "y": -8.489006042480469,
+        "x": -14.889,
+        "y": -10.225,
         "z": 0
       },
       "orientation": {
@@ -294,7 +239,7 @@
           "config": {
             "formatVersion": 2,
             "fontAssetId": "21",
-            "text": "push space to start",
+            "text": "push space to restart",
             "alignment": "center",
             "verticalAlignment": "center",
             "size": null,
@@ -306,8 +251,57 @@
         }
       ],
       "position": {
-        "x": -0.04953460395336151,
-        "y": 6.4283366203308105,
+        "x": -0.07796768844127655,
+        "y": -6.622421741485596,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "13",
+      "name": "Score",
+      "children": [],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TitleMenuBehavior",
+            "propertyValues": {}
+          },
+          "id": "0"
+        },
+        {
+          "type": "TextRenderer",
+          "config": {
+            "formatVersion": 2,
+            "fontAssetId": "21",
+            "text": "Score: 30",
+            "alignment": "center",
+            "verticalAlignment": "center",
+            "size": null,
+            "color": "ff3b2c",
+            "overrideOpacity": false,
+            "opacity": null
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -2.5966243743896484,
+        "y": 5.152297496795654,
         "z": 0
       },
       "orientation": {

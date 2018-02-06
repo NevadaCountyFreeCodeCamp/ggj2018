@@ -1,0 +1,127 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "2",
+      "name": "Types",
+      "children": [
+        {
+          "id": "0",
+          "name": "Pit",
+          "children": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "formatVersion": 2,
+                "type": "box",
+                "movable": true,
+                "width": 82,
+                "height": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "bounce": {
+                  "x": 0,
+                  "y": 0
+                },
+                "tileMapAssetId": null,
+                "tileSetPropertyName": null,
+                "layersIndex": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 15.778404235839844,
+            "y": -9.995084762573242,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "1",
+          "name": "Spike",
+          "children": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "formatVersion": 2,
+                "type": "box",
+                "movable": true,
+                "width": 1,
+                "height": 1,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "bounce": {
+                  "x": 0,
+                  "y": 0
+                },
+                "tileMapAssetId": null,
+                "tileSetPropertyName": null,
+                "layersIndex": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -24.201936721801758,
+            "y": -7.417736053466797,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}
