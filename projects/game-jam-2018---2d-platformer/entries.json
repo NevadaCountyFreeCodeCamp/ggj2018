@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 26,
+  "nextEntryId": 53,
   "nodes": [
     {
       "id": "10",
@@ -9,6 +9,11 @@
         {
           "id": "4",
           "name": "Tile Set",
+          "type": "tileSet"
+        },
+        {
+          "id": "41",
+          "name": "Tile Set 2",
           "type": "tileSet"
         },
         {
@@ -37,6 +42,18 @@
           "id": "21",
           "name": "Font",
           "type": "font"
+        },
+        {
+          "id": "30",
+          "name": "Dino",
+          "type": null,
+          "children": [
+            {
+              "id": "27",
+              "name": "Dino",
+              "type": "sprite"
+            }
+          ]
         }
       ]
     },
@@ -58,6 +75,28 @@
         {
           "id": "22",
           "name": "TitleMenu",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "GameOver",
+      "type": null,
+      "children": [
+        {
+          "id": "43",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "44",
+          "name": "Tile Map",
+          "type": "tileMap"
+        },
+        {
+          "id": "47",
+          "name": "Script",
           "type": "script"
         }
       ]
@@ -90,9 +129,82 @@
           "type": "scene"
         },
         {
-          "id": "25",
+          "id": "26",
           "name": "Map",
           "type": "tileMap"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Level3",
+      "type": null,
+      "children": [
+        {
+          "id": "33",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "34",
+          "name": "Map",
+          "type": "tileMap"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Level4",
+      "type": null,
+      "children": [
+        {
+          "id": "36",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "37",
+          "name": "Map",
+          "type": "tileMap"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Level5",
+      "type": null,
+      "children": [
+        {
+          "id": "39",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "40",
+          "name": "Map",
+          "type": "tileMap"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "TheEnd",
+      "type": null,
+      "children": [
+        {
+          "id": "51",
+          "name": "Scene",
+          "type": "scene"
+        },
+        {
+          "id": "50",
+          "name": "Tile Map",
+          "type": "tileMap"
+        },
+        {
+          "id": "52",
+          "name": "Script",
+          "type": "script"
         }
       ]
     },
@@ -105,6 +217,11 @@
       "id": "14",
       "name": "musicintro",
       "type": "sound"
+    },
+    {
+      "id": "46",
+      "name": "Destroyers",
+      "type": "scene"
     }
   ]
 }

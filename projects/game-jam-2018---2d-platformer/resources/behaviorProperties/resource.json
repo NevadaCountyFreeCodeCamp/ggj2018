@@ -2,7 +2,7 @@
   "behaviors": {
     "PlayerBehavior": {
       "scriptId": "3",
-      "line": 2,
+      "line": 11,
       "parentBehavior": null,
       "properties": [
         {
@@ -11,6 +11,18 @@
         },
         {
           "name": "jumpSpeed",
+          "type": "number"
+        },
+        {
+          "name": "attacking",
+          "type": "boolean"
+        },
+        {
+          "name": "crouching",
+          "type": "boolean"
+        },
+        {
+          "name": "health",
           "type": "number"
         }
       ]
@@ -23,13 +35,25 @@
     },
     "TitleMenuBehavior": {
       "scriptId": "22",
-      "line": 0,
+      "line": 2,
       "parentBehavior": null,
       "properties": []
     },
     "InGameAudioBehavior": {
       "scriptId": "11",
-      "line": 27,
+      "line": 42,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "GameOverBehavior": {
+      "scriptId": "47",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "TheEndBehavior": {
+      "scriptId": "52",
+      "line": 0,
       "parentBehavior": null,
       "properties": []
     }

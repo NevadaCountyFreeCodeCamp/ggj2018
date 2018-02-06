@@ -198,6 +198,7 @@ class PlayerBehavior extends Sup.Behavior {
     */
     // If the player is on the ground and wants to jump,
     // we update the `.y` component accordingly
+    
     let touchBottom = this.actor.arcadeBody2D.getTouches().bottom;
     
     if (touchBottom) {
@@ -207,9 +208,9 @@ class PlayerBehavior extends Sup.Behavior {
       } else {
         // Here, we should play either "Idle" or "Run" depending on the horizontal speed
         if ( !this.crouching && !this.attacking ) {
-        if (velocity.x === 0) this.actor.spriteRenderer.setAnimation("Idle");
-        else this.actor.spriteRenderer.setAnimation("Run");
-      }
+          if (velocity.x === 0) this.actor.spriteRenderer.setAnimation("Idle");
+          else this.actor.spriteRenderer.setAnimation("Run");
+        }
       }
     } else {
       // Here, we should play either "Jump" or "Fall" depending on the vertical speed

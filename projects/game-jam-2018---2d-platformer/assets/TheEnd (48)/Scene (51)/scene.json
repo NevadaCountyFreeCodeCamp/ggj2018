@@ -11,14 +11,14 @@
           "config": {
             "mode": "orthographic",
             "fov": 100,
-            "orthographicScale": 24,
+            "orthographicScale": 22,
             "viewport": {
               "x": 0,
               "y": 0,
               "width": 1,
               "height": 1
             },
-            "depth": 100,
+            "depth": 90,
             "nearClippingPlane": 1,
             "farClippingPlane": 1000,
             "formatVersion": 1
@@ -27,9 +27,9 @@
         }
       ],
       "position": {
-        "x": 0,
-        "y": 2,
-        "z": 10
+        "x": -5.7414937019348145,
+        "y": 0.9500738978385925,
+        "z": 2
       },
       "orientation": {
         "x": 0,
@@ -82,7 +82,7 @@
               "config": {
                 "formatVersion": 1,
                 "spriteAssetId": "2",
-                "animationId": "0",
+                "animationId": "7",
                 "horizontalFlip": false,
                 "verticalFlip": false,
                 "castShadow": false,
@@ -105,8 +105,8 @@
             }
           ],
           "position": {
-            "x": -13.734045028686523,
-            "y": -0.623138964176178,
+            "x": -6.853097438812256,
+            "y": -2.574234962463379,
             "z": 0
           },
           "orientation": {
@@ -156,7 +156,7 @@
               "config": {
                 "formatVersion": 1,
                 "spriteAssetId": "2",
-                "animationId": null,
+                "animationId": "7",
                 "horizontalFlip": false,
                 "verticalFlip": false,
                 "castShadow": false,
@@ -179,8 +179,8 @@
             }
           ],
           "position": {
-            "x": -8.202469825744629,
-            "y": -4.674983024597168,
+            "x": -3.8672244548797607,
+            "y": -3.5895934104919434,
             "z": 0
           },
           "orientation": {
@@ -230,7 +230,7 @@
               "config": {
                 "formatVersion": 1,
                 "spriteAssetId": "2",
-                "animationId": null,
+                "animationId": "7",
                 "horizontalFlip": false,
                 "verticalFlip": false,
                 "castShadow": false,
@@ -253,8 +253,8 @@
             }
           ],
           "position": {
-            "x": -2.146150827407837,
-            "y": -4.880514621734619,
+            "x": -9.910024642944336,
+            "y": -3.5873279571533203,
             "z": 0
           },
           "orientation": {
@@ -297,61 +297,12 @@
     {
       "id": "20",
       "name": "Ladders",
-      "children": [
-        {
-          "id": "21",
-          "name": "Ladder1",
-          "children": [],
-          "components": [
-            {
-              "type": "ArcadeBody2D",
-              "config": {
-                "formatVersion": 2,
-                "type": "box",
-                "movable": false,
-                "width": 1,
-                "height": 7,
-                "offset": {
-                  "x": 0,
-                  "y": 0
-                },
-                "bounce": {
-                  "x": 0,
-                  "y": 0
-                },
-                "tileMapAssetId": null,
-                "tileSetPropertyName": null,
-                "layersIndex": null
-              },
-              "id": "1"
-            }
-          ],
-          "position": {
-            "x": 110.685,
-            "y": 35.7,
-            "z": 0
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        }
-      ],
+      "children": [],
       "components": [],
       "position": {
-        "x": -94.20929718017578,
-        "y": -37.88367462158203,
-        "z": 10
+        "x": -94.147,
+        "y": -37.93,
+        "z": 0
       },
       "orientation": {
         "x": 0,
@@ -383,8 +334,8 @@
                 "formatVersion": 2,
                 "type": "box",
                 "movable": false,
-                "width": 6,
-                "height": 0.5,
+                "width": 2,
+                "height": 0.3,
                 "offset": {
                   "x": 0,
                   "y": 0
@@ -401,8 +352,8 @@
             }
           ],
           "position": {
-            "x": -6.091121673583984,
-            "y": 5.873373985290527,
+            "x": -18.045069217681885,
+            "y": 4.445300340652466,
             "z": 0
           },
           "orientation": {
@@ -421,7 +372,7 @@
           "prefab": null
         },
         {
-          "id": "30",
+          "id": "33",
           "name": "Platform2",
           "children": [],
           "components": [
@@ -431,8 +382,8 @@
                 "formatVersion": 2,
                 "type": "box",
                 "movable": false,
-                "width": 10,
-                "height": 0.5,
+                "width": 2,
+                "height": 0.3,
                 "offset": {
                   "x": 0,
                   "y": 0
@@ -449,8 +400,56 @@
             }
           ],
           "position": {
-            "x": 3.8960351943969727,
-            "y": 8.877308189868927,
+            "x": -21.011916160583496,
+            "y": 3.44374942779541,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "34",
+          "name": "Platform3",
+          "children": [],
+          "components": [
+            {
+              "type": "ArcadeBody2D",
+              "config": {
+                "formatVersion": 2,
+                "type": "box",
+                "movable": false,
+                "width": 2,
+                "height": 0.3,
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "bounce": {
+                  "x": 0,
+                  "y": 0
+                },
+                "tileMapAssetId": null,
+                "tileSetPropertyName": null,
+                "layersIndex": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -14.993361234664917,
+            "y": 3.4352221488952637,
             "z": 0
           },
           "orientation": {
@@ -500,7 +499,73 @@
           "config": {
             "formatVersion": 1,
             "spriteAssetId": "27",
-            "animationId": "0",
+            "animationId": "2",
+            "horizontalFlip": true,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        },
+        {
+          "type": "ArcadeBody2D",
+          "config": {
+            "formatVersion": 2,
+            "type": "box",
+            "movable": false,
+            "width": 2,
+            "height": 1.5,
+            "offset": {
+              "x": 0,
+              "y": -0.2
+            },
+            "bounce": {
+              "x": 0,
+              "y": 0
+            },
+            "tileMapAssetId": null,
+            "tileSetPropertyName": null,
+            "layersIndex": null
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -2.1747593879699707,
+        "y": -6.422082424163818,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "39",
+      "name": "Dino2",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "formatVersion": 1,
+            "spriteAssetId": "27",
+            "animationId": "2",
             "horizontalFlip": false,
             "verticalFlip": false,
             "castShadow": false,
@@ -537,8 +602,8 @@
         }
       ],
       "position": {
-        "x": -2.860579490661621,
-        "y": 5.951906204223633,
+        "x": -11.5608549118042,
+        "y": -6.5274810791015625,
         "z": 0
       },
       "orientation": {
@@ -568,7 +633,7 @@
             {
               "type": "TileMapRenderer",
               "config": {
-                "tileMapAssetId": "6",
+                "tileMapAssetId": "50",
                 "tileSetAssetId": null,
                 "castShadow": false,
                 "receiveShadow": false,
@@ -594,7 +659,7 @@
                   "x": 0,
                   "y": 0
                 },
-                "tileMapAssetId": "6",
+                "tileMapAssetId": "40",
                 "tileSetPropertyName": null,
                 "layersIndex": "0"
               },
@@ -610,9 +675,9 @@
             }
           ],
           "position": {
-            "x": -31,
-            "y": -2,
-            "z": -10
+            "x": -28,
+            "y": -1.906,
+            "z": 0
           },
           "orientation": {
             "x": 0,
@@ -632,74 +697,8 @@
       ],
       "components": [],
       "position": {
-        "x": 11.096711158752441,
-        "y": -8.09357738494873,
-        "z": 10
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "32",
-      "name": "DamageDealer",
-      "children": [],
-      "components": [],
-      "position": {
-        "x": -16.83361053466797,
-        "y": -5.027608871459961,
-        "z": 10
-      },
-      "orientation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "visible": true,
-      "layer": 0,
-      "prefab": null
-    },
-    {
-      "id": "34",
-      "name": "Hint",
-      "children": [],
-      "components": [
-        {
-          "type": "TextRenderer",
-          "config": {
-            "formatVersion": 2,
-            "fontAssetId": "21",
-            "text": "Dino is hungry...",
-            "alignment": "center",
-            "verticalAlignment": "center",
-            "size": null,
-            "color": "23ff15",
-            "overrideOpacity": false,
-            "opacity": null
-          },
-          "id": "0"
-        }
-      ],
-      "position": {
-        "x": -0.709,
-        "y": 7.576,
+        "x": 11.097,
+        "y": -8.094,
         "z": 0
       },
       "orientation": {
@@ -718,7 +717,7 @@
       "prefab": null
     },
     {
-      "id": "33",
+      "id": "37",
       "name": "Spike",
       "children": [],
       "components": [
@@ -728,7 +727,7 @@
             "formatVersion": 2,
             "type": "box",
             "movable": false,
-            "width": 0.9,
+            "width": 1,
             "height": 1,
             "offset": {
               "x": 0,
@@ -746,8 +745,8 @@
         }
       ],
       "position": {
-        "x": -16.453126907348633,
-        "y": -3.5966737270355225,
+        "x": -37.81312561035156,
+        "y": -15.491499900817871,
         "z": 10
       },
       "orientation": {
@@ -766,7 +765,7 @@
       "prefab": null
     },
     {
-      "id": "35",
+      "id": "38",
       "name": "Pit",
       "children": [],
       "components": [
@@ -775,7 +774,7 @@
           "config": {
             "formatVersion": 2,
             "type": "box",
-            "movable": true,
+            "movable": false,
             "width": 64,
             "height": 1,
             "offset": {
@@ -794,9 +793,156 @@
         }
       ],
       "position": {
-        "x": 0.7917420268058777,
-        "y": -10.718482971191406,
+        "x": -3.679945945739746,
+        "y": 12.543399810791016,
         "z": 10
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "40",
+      "name": "Score",
+      "children": [],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TheEndBehavior",
+            "propertyValues": {}
+          },
+          "id": "0"
+        },
+        {
+          "type": "TextRenderer",
+          "config": {
+            "formatVersion": 2,
+            "fontAssetId": "21",
+            "text": "score: 20",
+            "alignment": "center",
+            "verticalAlignment": "center",
+            "size": null,
+            "color": "ff3b2c",
+            "overrideOpacity": false,
+            "opacity": null
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -6.501893997192383,
+        "y": 0.876733660697937,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "42",
+      "name": "Win",
+      "children": [],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TitleMenuBehavior",
+            "propertyValues": {}
+          },
+          "id": "0"
+        },
+        {
+          "type": "TextRenderer",
+          "config": {
+            "formatVersion": 2,
+            "fontAssetId": "21",
+            "text": "You Win!",
+            "alignment": "center",
+            "verticalAlignment": "center",
+            "size": null,
+            "color": "ff3b2c",
+            "overrideOpacity": false,
+            "opacity": null
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -6.737209320068359,
+        "y": 2.796365737915039,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "41",
+      "name": "Start",
+      "children": [],
+      "components": [
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "TitleMenuBehavior",
+            "propertyValues": {}
+          },
+          "id": "0"
+        },
+        {
+          "type": "TextRenderer",
+          "config": {
+            "formatVersion": 2,
+            "fontAssetId": "21",
+            "text": "push space to restart",
+            "alignment": "center",
+            "verticalAlignment": "center",
+            "size": null,
+            "color": "ff3b2c",
+            "overrideOpacity": false,
+            "opacity": null
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": -6.914881229400635,
+        "y": -0.5552095174789429,
+        "z": 0
       },
       "orientation": {
         "x": 0,

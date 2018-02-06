@@ -1,12 +1,7 @@
-
-
 class TitleMenuBehavior extends Sup.Behavior {
   
   awake() {
     Sup.Storage.set("warp", "1");
-    currentLevel = 1
-    score = 0
-    Sup.Storage.set("score", score.toString())
   }
 
   update() {
